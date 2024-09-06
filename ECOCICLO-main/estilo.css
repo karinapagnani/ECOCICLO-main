@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "lexend";
+    src: url(font/Lexend-VariableFont_wght.ttf);
+}
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    height: 500px;
+}
+.titulo {
+    font-family: "lexend";
+    font-size: 80px;
+    font-weight: 500;
+}
+.subtitulo {
+    font-family: "lexend";
+    font-size: 30px;
+}
+body {
+    background-color: #598C38;
+}
+.imagem {
+    height: 300px;
+}
+.divisao {
+    background-color: #F4F3F3;
+    width: 320px;
+    border-radius: 8px;
+    margin: 15px;
+    padding-bottom: 28px;
+}
+.processo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.display {
+    display: flex;
+    justify-content: center;
+
+}
+.texto {
+    font-family: "lexend";
+    font-size: 14px;
+    padding: 5px;
+    text-align: justify;
+}
+.nome {
+    font-family: "lexend";
+    font-size: 50px;
+    color: #F4F3F3;
+    font-weight: 500;
+    padding-left: 0px;
+}    
+.tituloImpacto {
+    font-family: "lexend";
+    font-size: 50px;
+    color: #F4F3F3;
+    font-weight: 500;
+}
+.redes {
+    color: #F4F3F3;
+    font-family: "lexend";
+    font-weight: 300;
+    font-size: 24px;
+}
+.sobre {
+    background-color: #F4F3F3;
+}
+.textoSobre{
+    font-family: "lexend";
+    font-size: 20px;
+    font-weight: 350;
+}
+.sobre .nome {
+    color: #000000;
+}
+.divSobre {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left:0px;
+}
+h3 {
+    color: #598C38;
+    font-family: "lexend";
+    font-size: 40px;
+    font-weight: 40px;
+}
+section, footer,header{
+    padding: 0px 150px;
+}
+.sobre {
+    padding: 70px 170px;
+}
+header {
+    padding-top: 150px;
+}
+.impacto {
+    background-color: #476B30;
+    font-family: "lexend";
+    padding: 50px 150px;
+}
+.textoImpacto {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 250;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: "lexend";
+}
+
+.subtituloImpacto {
+    color: #F4F3F3;
+    font-weight: 400;
+    margin: 30px;
+    font-size: 50px;
+}    
+.container {
+    display:flex;
+    justify-content: left;
+}
+.imagemImpacto {
+    height: 200px;
+    width: auto;
+}
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+   padding-left: 149px;
+}
+.divTituloImpacto {
+    padding-bottom: 30px;
+}
+
